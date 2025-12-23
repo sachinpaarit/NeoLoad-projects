@@ -1,0 +1,649 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/reports"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    slaProfileEnabled="false" thinkTime="14103"
+    thinkTimeMode="MODE_RANGE_THINK_TIME" thinkTimeRangeEnd="6000"
+    thinkTimeRangeStart="3000" uid="14a66191-bc92-4c13-861a-177b1c8512d3">
+    <embedded-action>0f836e99-ce7f-4ce8-b533-b58d65acba4b</embedded-action>
+    <embedded-action>a5a690e9-111d-42fd-a92a-94fc7b04f05b</embedded-action>
+    <embedded-action>6b8fd65b-32b8-4982-8566-2440276ef452</embedded-action>
+    <embedded-action>fd2ec131-7c00-48d7-8ce6-b237ab87eed6</embedded-action>
+    <embedded-action>58d49f3d-5682-4017-b7ae-6354b6d5de55</embedded-action>
+    <embedded-action>5781b838-5e5a-4c57-b41d-4909e567a311</embedded-action>
+    <embedded-action>b0632c73-d1c8-49a2-a388-b2392f418dda</embedded-action>
+    <embedded-action>eae1d21f-3876-41bb-8200-37d0680a64b1</embedded-action>
+    <embedded-action>314fdc43-f8b8-4f72-81df-472ee02f9985</embedded-action>
+    <embedded-action>0c30af56-12cd-4d93-9632-f58ee631a6f3</embedded-action>
+    <embedded-action>9b5838a8-93dd-4703-8d8f-bb4c7ac6a263</embedded-action>
+    <embedded-action>35cf422b-f3ca-4c06-b899-282a8aed6e42</embedded-action>
+    <embedded-action>d2dfdcee-8dd3-4e42-9665-3c2b3d0ab282</embedded-action>
+    <embedded-action>42a6e2ac-c75d-476b-9d77-367638c26398</embedded-action>
+    <embedded-action>69ecc34a-ef81-4085-b4e0-9a6d383131c5</embedded-action>
+    <embedded-action>833476a3-affe-453b-99e3-25515fba598b</embedded-action>
+    <embedded-action>6f8f5476-967d-46cd-94a1-386df563841c</embedded-action>
+    <embedded-action>06519614-de62-4308-b161-f63f10d64d21</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_14a66191-bc92-4c13-861a-177b1c8512d3.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/reports" path="/reports" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="142"
+    refererUid="3693114b-911d-4887-b583-c36518729fc9"
+    responseSize="55405" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="0f836e99-ce7f-4ce8-b533-b58d65acba4b" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_0f836e99-ce7f-4ce8-b533-b58d65acba4b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0f836e99-ce7f-4ce8-b533-b58d65acba4b.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Referer" value="http://10.0.4.48/reports/thanks"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4; expires=Mon, 27-Jul-2015 10:07:12 GMT; path=/; httponly
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+Content-Length: 55405</responseHeaders>
+    <record-html-infos extractorContent="Reports" extractorOccurence="8"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="&quot;3e5-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/img/report-thumb-default.jpg"
+    path="/media/img/report-thumb-default.jpg" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="25"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="a5a690e9-111d-42fd-a92a-94fc7b04f05b" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_a5a690e9-111d-42fd-a92a-94fc7b04f05b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "3e5-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 997
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/jpeg</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;203-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/mobile-phone.png"
+    path="/themes/default/images/icons/mobile-phone.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="12"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="6b8fd65b-32b8-4982-8566-2440276ef452" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_6b8fd65b-32b8-4982-8566-2440276ef452.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "203-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 515
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;764-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icon_sprite-2.png"
+    path="/themes/default/images/icon_sprite-2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="529"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="fd2ec131-7c00-48d7-8ce6-b237ab87eed6" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_fd2ec131-7c00-48d7-8ce6-b237ab87eed6.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "764-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 1892
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;e1-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/tooltip-arrow.png"
+    path="/themes/default/images/tooltip-arrow.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="11"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="58d49f3d-5682-4017-b7ae-6354b6d5de55" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_58d49f3d-5682-4017-b7ae-6354b6d5de55.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "e1-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 225
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;b4-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/themes/default/images/bg_filter-accordion-title.png"
+    path="/themes/default/images/bg_filter-accordion-title.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="17"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="5781b838-5e5a-4c57-b41d-4909e567a311" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_5781b838-5e5a-4c57-b41d-4909e567a311.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "b4-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 180
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;298-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/films.png"
+    path="/themes/default/images/icons/films.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="35"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="b0632c73-d1c8-49a2-a388-b2392f418dda" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_b0632c73-d1c8-49a2-a388-b2392f418dda.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "298-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 664
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;65d-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/img/icon_sprite.png"
+    path="/media/img/icon_sprite.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="38"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="eae1d21f-3876-41bb-8200-37d0680a64b1" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_eae1d21f-3876-41bb-8200-37d0680a64b1.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "65d-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 1629
+Keep-Alive: timeout=5, max=94
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;2a4-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/twitter.png"
+    path="/themes/default/images/icons/twitter.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="21"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="314fdc43-f8b8-4f72-81df-472ee02f9985" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_314fdc43-f8b8-4f72-81df-472ee02f9985.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "2a4-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 676
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;29f-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/images.png"
+    path="/themes/default/images/icons/images.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="44"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="0c30af56-12cd-4d93-9632-f58ee631a6f3" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_0c30af56-12cd-4d93-9632-f58ee631a6f3.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "29f-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 671
+Keep-Alive: timeout=5, max=93
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;277-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/newspapers.png"
+    path="/themes/default/images/icons/newspapers.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="27"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="9b5838a8-93dd-4703-8d8f-bb4c7ac6a263" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_9b5838a8-93dd-4703-8d8f-bb4c7ac6a263.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:12 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "277-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 631
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;25d-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/tick-button.png"
+    path="/themes/default/images/icons/tick-button.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="47"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="35cf422b-f3ca-4c06-b899-282a8aed6e42" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_35cf422b-f3ca-4c06-b899-282a8aed6e42.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "25d-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 605
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;24c-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/cross-button.png"
+    path="/themes/default/images/icons/cross-button.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="56"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="d2dfdcee-8dd3-4e42-9665-3c2b3d0ab282" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_d2dfdcee-8dd3-4e42-9665-3c2b3d0ab282.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "24c-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 588
+Keep-Alive: timeout=5, max=91
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1f9-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/images/icons/mail.png"
+    path="/themes/default/images/icons/mail.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="62"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="42a6e2ac-c75d-476b-9d77-367638c26398" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_42a6e2ac-c75d-476b-9d77-367638c26398.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "1f9-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 505
+Keep-Alive: timeout=5, max=90
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1c6-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/themes/default/images/icons/application-form.png"
+    path="/themes/default/images/icons/application-form.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="58"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="69ecc34a-ef81-4085-b4e0-9a6d383131c5" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_69ecc34a-ef81-4085-b4e0-9a6d383131c5.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "1c6-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 454
+Keep-Alive: timeout=5, max=89
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1111-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/media/img/themeroller/ui-icons_454545_256x240.png"
+    path="/media/img/themeroller/ui-icons_454545_256x240.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="62"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="833476a3-affe-453b-99e3-25515fba598b" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_833476a3-affe-453b-99e3-25515fba598b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "1111-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 4369
+Keep-Alive: timeout=5, max=88
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1111-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/media/img/themeroller/ui-icons_888888_256x240.png"
+    path="/media/img/themeroller/ui-icons_888888_256x240.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="64"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="6f8f5476-967d-46cd-94a1-386df563841c" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_6f8f5476-967d-46cd-94a1-386df563841c.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT
+ETag: "1111-514cc67264b00"
+Accept-Ranges: bytes
+Content-Length: 4369
+Keep-Alive: timeout=5, max=87
+Connection: Keep-Alive
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="1"
+    recordedArtifactZipFileName="team/vus/@browser@user_@create_report_1/%resources%/recorded-artifacts/14a66191-bc92-4c13-861a-177b1c8512d3.zip"
+    recordedResponseCode="200" recordedResponseTime="70"
+    responseSize="0" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="06519614-de62-4308-b161-f63f10d64d21" useKeepAlive="true">
+    <requestContentFileDescription>recorded-requests/req_06519614-de62-4308-b161-f63f10d64d21.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://10.0.4.48/reports"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MDDRJS; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="10.0.4.48"/>
+    <header name="Cookie" value="ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 27 Jul 2015 08:07:13 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16
+X-Powered-By: PHP/5.4.16
+Expires: Wed, 11 Nov 1998 11:11:11 GMT
+Cache-Control: must-revalidate
+Pragma: no-cache
+Set-Cookie: ushahidi=bkkc45pt5rrhav0j9jqtt1gcf4; expires=Mon, 27-Jul-2015 10:07:13 GMT; path=/; httponly
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=86
+Connection: Keep-Alive
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
