@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Refresh" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="85aab139-d30c-44b1-a3c1-2a1e8c8960db" weightsEnabled="false">
+    <weighted-embedded-action uid="5f515d3d-a53e-4c93-940e-e6e68c210fe9"/>
+    <weighted-embedded-action uid="c3154439-bb36-4d6b-89f1-39396a313385"/>
+    <weighted-embedded-action uid="a8e6a317-260e-46b6-9746-047fc4003f7c"/>
+</basic-logical-action-container>

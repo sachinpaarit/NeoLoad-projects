@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/com.snowplowanalytics.snowplow/tp2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d_@workparty@list invalid user - @tosca/%resources%/recorded-artifacts/57689473-86af-4e88-ac15-2cea4a75c44c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="57689473-86af-4e88-ac15-2cea4a75c44c">
+    <embedded-action>7346b61c-d673-4441-a4d1-b2f5910c8afc</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/com.snowplowanalytics.snowplow/tp2"
+    path="/com.snowplowanalytics.snowplow/tp2" postCharset="UTF-8"
+    postContentUnzipped="true" postType="4"
+    recordedArtifactZipFileName="team/vus/@d_@workparty@list invalid user - @tosca/%resources%/recorded-artifacts/57689473-86af-4e88-ac15-2cea4a75c44c.zip"
+    recordedResponseCode="200" responseSize="2"
+    serverUid="us.telemetry.zoom.us" slaProfileEnabled="false"
+    uid="7346b61c-d673-4441-a4d1-b2f5910c8afc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7346b61c-d673-4441-a4d1-b2f5910c8afc</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7346b61c-d673-4441-a4d1-b2f5910c8afc.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Language" value="en"/>
+    <header name="Content-Encoding" value="gzip"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Host" value="us.telemetry.zoom.us"/>
+    <header name="User-Agent" value="Mozilla/5.0 (ZOOM.Win 10.0 x64)"/>
+    <header name="ZM-CAP" value="8300567970761955255,6445493618999263204,7795585261064146175,7998097959182395391,5764464026413956093,3341388342036568158,2879629607563024359,1485307"/>
+    <header name="ZM-LOCALE" value="Def"/>
+    <header name="ZM-PROP" value="Win.Zoom"/>
+    <header name="ZM-SRC" value="Client_SnowPlow"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 25 Nov 2025 12:24:30 GMT&#xd;
+Content-Type: text/plain; charset=UTF-8&#xd;
+Content-Length: 2&#xd;
+Connection: keep-alive&#xd;
+Set-Cookie: sp=aadbaa10-7ffc-47c6-92b9-62d3f6c51120; Expires=Wed, 25 Nov 2026 12:24:30 GMT; Domain=; Path=/; Secure; SameSite=None&#xd;
+P3P: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSA OUR IND COM NAV STA"&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+cf-cache-status: DYNAMIC&#xd;
+Set-Cookie: __cf_bm=yelTuduw7nzZYB9EprUOzP1_opIB5nux_jbA7.Vj0sI-1764073470-1.0.1.1-WZYnEtm5Hhn1.tMJz4t5R0N6owiT9SeHK6JXjW4moDzub3bexvh4pKuhKATRvin6Zb6EThGYzCEukt3IbHaPp6aULnC3CnMVXvEaMcOeMHU; path=/; expires=Tue, 25-Nov-25 12:54:30 GMT; domain=.us.telemetry.zoom.us; HttpOnly; Secure; SameSite=None&#xd;
+Server: cloudflare&#xd;
+CF-RAY: 9a411f942b380ac9-BOM&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"data":[{"aid":"metrics","co":"{\"data\":[{\"data\":{\"browser_type\":\"msie\",\"meeting_domain_in_predetect\":false,\"pac_cached\":false,\"proxy_settings\":\"http\",\"zoom_domain_in_predetect\":false},\"schema\":\"iglu:us.zoom.application_performance_v2.entities/ProxyInfo/jsonschema/1-1-0\"},{\"data\":{\"device_id\":\"5aQku6BaKRPLJKnz0SCIma9y2vDFMNuNHWkuMCFpGM0=\",\"device_model\":\"Latitude 7450\",\"os_name\":\"windows\",\"os_version\":\"10.0.26100\"},\"schema\":\"iglu:us.zoom.application_performance_v2.entities/Device/jsonschema/1-0-1\"},{\"data\":{\"client_package_type\":\"release\",\"client_type\":\"client\",\"client_version\":\"6.6.1.15968\",\"cluster_db_name\":\"aw1\"},\"schema\":\"iglu:us.zoom.application_performance_v2.entities/Product/jsonschema/1-0-1\"},{\"data\":{\"account_id\":\"tj2epoccS9-zf66Y9PhCHw\",\"user_id\":\"kf7xFBUxTBG_q2htqsabdA\"},\"schema\":\"iglu:us.zoom.application_performance_v2.entities/User/jsonschema/1-0-1\"}],\"schema\":\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-1\"}\n","dtm":"1764073464245","e":"ue","eid":"A1BD0DD2-2E60-4450-80BA-8B7ED3B29067","p":"app","tv":"cpp-0.2.0","ue_pr":"{\"data\":{\"data\":{\"data_collection_flag\":1,\"is_required_event\":false,\"metrics_name\":\"proxy_info\",\"metrics_time\":0.0,\"module_name\":\"znet\",\"sampling_config_version\":\"1.7\",\"sampling_rate\":0.5,\"service_name\":\"client\",\"when_collection_toggle_off_action\":\"unmasked\"},\"schema\":\"iglu:us.zoom.application_performance_v2/MetricsTracking/jsonschema/1-2-9\"},\"schema\":\"iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0\"}\n"}],"schema":"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4"}]]></textPostContent>
+</http-action>

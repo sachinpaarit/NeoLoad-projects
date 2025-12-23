@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenURL" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="32775a6e-4718-45c8-a446-854b01871952" weightsEnabled="false">
+    <weighted-embedded-action uid="1b3c8047-f848-4530-9b97-a8d2852beb10"/>
+    <weighted-embedded-action uid="d1a88908-3f0f-4cb7-a365-1ffb7ac44b83"/>
+</basic-logical-action-container>
