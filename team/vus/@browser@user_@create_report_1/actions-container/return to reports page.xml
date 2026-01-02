@@ -1,7 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="return to reports page" pacingEnd="0"
-    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-    slaProfileEnabled="true" slaProfileName="DefaultSLA"
-    uid="6c7c7fc7-6314-4143-92b9-49a3320ef2b7" weightsEnabled="false">
-    <weighted-embedded-action uid="14a66191-bc92-4c13-861a-177b1c8512d3"/>
-</basic-logical-action-container>
