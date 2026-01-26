@@ -1,0 +1,32 @@
+<browser-action actionType="BrowserCaptureRequests" isHit="false"
+    name="Capture requests" uid="896f307d-dc72-47a8-9259-aa6cea9ce608">
+    <description>Configure the capture of HTTP requests metrics for analysis purpose. 
+It allows to capture the metrics (duration, TTFB, success...) of the requests sent and responses received between the browser and the server.
+By default when no regexp/url/resourceType parameter is specified, then all the HTTP request metrics are aggregated in a single group.
+When a matching criteria is defined (regexp/url/resourceType), the metrics of all HTTP requests matching it are aggregated in a group, and the non-matching one in a different group (for example with regexp (.*)\.html then requests will be split in two different groups: one for all HTML pages and another one for all other resources). When multiple matching criteria are defined (regexp/url/resourceType), they are applied in order they are defined.
+
+Possible parameters are:&#xd;
+- regexp (optional): The regular expression to group the requests (the matching check is applied on the full request URL: scheme, host name, port number, path and URL parameters).  Default value is ".*".&#xd;
+- url (optional): The URL to group the requests (excluding query parameters). &#xd;
+- resourceType (optional): The resource type to group the requests (possible values are document, stylesheet, image, media, font, script, texttrack, xhr, fetch, eventsource, websocket, manifest, ping, other). &#xd;
+- includeCache (optional): By default, only the requests sent over the network are captured (including the requests with 304 'Not Modified' response status since it includes network exchange). Set the value to true to capture also the requests locally loaded from the browser memory or disk cache (no network interaction). Default value is "false".</description>
+    <custom-action-parameter name="resourceType" type="TEXT" value="image"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="script"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="stylesheet"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
+    <embedded-action>cc338c8f-f52e-425d-bd22-273645e05d6c</embedded-action>
+    <embedded-action>d88b05ef-e71a-4ee4-93ad-51d3bc40615f</embedded-action>
+    <embedded-action>acf17184-d8ad-402c-8e28-84e159982e1a</embedded-action>
+    <embedded-action>0c9ebfaa-68fe-4b62-8132-c6a1e9c9b5b0</embedded-action>
+    <embedded-action>7dc9e089-c8aa-4e16-95e4-ee163af71320</embedded-action>
+</browser-action>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="cc338c8f-f52e-425d-bd22-273645e05d6c" value="image"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="d88b05ef-e71a-4ee4-93ad-51d3bc40615f" value="script"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="acf17184-d8ad-402c-8e28-84e159982e1a" value="stylesheet"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="0c9ebfaa-68fe-4b62-8132-c6a1e9c9b5b0" value="document"/>
+<browser-request-action name="" slaProfileEnabled="false" type="regexp"
+    uid="7dc9e089-c8aa-4e16-95e4-ee163af71320" value=".*"/>

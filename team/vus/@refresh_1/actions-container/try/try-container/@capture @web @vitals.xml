@@ -1,0 +1,49 @@
+<browser-action actionType="BrowserCaptureWebVitals" isHit="false"
+    name="Capture Web Vitals" uid="bd2c6470-4605-4832-8a11-6f174c6e96a9">
+    <description>Captures Core Web Vitals metrics during Virtual User navigation. This helps detect performance issues that affect the user experience.
+
+NeoLoad collects the following metrics for each defined URL:
+
+- Largest Contentful Paint (LCP)
+- Interaction to Next Paint (INP)
+- Cumulative Layout Shift (CLS)
+
+If you don't define a URL, NeoLoad aggregates metrics across all visited pages.
+
+To collect all metrics, place this action before the first Navigate action. The Virtual User needs to stay a minimum amount of time and perform at least one interaction to ensure Web Vitals were collected for a given page.
+Possible parameters are:&#xd;
+- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/books"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/computers"/>
+    <embedded-action>d047f148-a1c4-4411-98cb-822043ec7fee</embedded-action>
+    <embedded-action>a99b861f-6b81-43e1-9a0a-9774ee82bc6a</embedded-action>
+    <embedded-action>40fb31c5-cfc4-43cb-b821-8bc3e8123df9</embedded-action>
+</browser-action>
+<browser-url-web-vital-action name=""
+    uid="d047f148-a1c4-4411-98cb-822043ec7fee" url="https://demowebshop.tricentis.com/">
+    <embedded-action>339647c7-f443-4500-82e8-1ccd5c052748</embedded-action>
+    <embedded-action>9cf2e0f7-ce42-4100-8c33-e741a67b07a3</embedded-action>
+    <embedded-action>baa3d815-9494-4be8-9367-f1e397a247b4</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="339647c7-f443-4500-82e8-1ccd5c052748"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="9cf2e0f7-ce42-4100-8c33-e741a67b07a3"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="baa3d815-9494-4be8-9367-f1e397a247b4"/>
+<browser-url-web-vital-action name=""
+    uid="a99b861f-6b81-43e1-9a0a-9774ee82bc6a" url="https://demowebshop.tricentis.com/books">
+    <embedded-action>fd4679cc-1938-4d31-8248-d7f792bd9605</embedded-action>
+    <embedded-action>8ce5d006-fa11-4900-8ac0-eea795602726</embedded-action>
+    <embedded-action>c4ff2f11-3848-44e0-b5d1-b39202fbda2c</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="fd4679cc-1938-4d31-8248-d7f792bd9605"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="8ce5d006-fa11-4900-8ac0-eea795602726"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="c4ff2f11-3848-44e0-b5d1-b39202fbda2c"/>
+<browser-url-web-vital-action name=""
+    uid="40fb31c5-cfc4-43cb-b821-8bc3e8123df9" url="https://demowebshop.tricentis.com/computers">
+    <embedded-action>20eb3bea-ec26-474e-ada7-a9f5875a17b3</embedded-action>
+    <embedded-action>68ceb8b5-acfc-4fc3-8310-fe2412474f4c</embedded-action>
+    <embedded-action>d9d51140-4a49-4ec6-9794-078f99c7684f</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="20eb3bea-ec26-474e-ada7-a9f5875a17b3"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="68ceb8b5-acfc-4fc3-8310-fe2412474f4c"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="d9d51140-4a49-4ec6-9794-078f99c7684f"/>
