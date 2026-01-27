@@ -1,4 +1,4 @@
-<custom-action actionType="RTEConnect" isHit="true" name="connect" uid="a7632392-9966-4a10-9dfc-6a3bb7c4d46f">
+<custom-action actionType="RTEConnect" isHit="true" name="connect" uid="f7093deb-f8b6-4b1c-9d73-54d7572905af">
     <description>Connect to a terminal server
 
 Possible parameters are:
