@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Process" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="7bad11ba-d380-4f0d-8573-e11e289b8dee" weightsEnabled="false">
+    <weighted-embedded-action uid="e700c3fd-b768-45d8-9bfc-057626b1d978"/>
+    <weighted-embedded-action uid="868ca99d-1377-46e0-894e-152d45466365"/>
+    <weighted-embedded-action uid="81bf2b49-3552-4739-9713-78ce93dff871"/>
+    <weighted-embedded-action uid="9a04d53c-27f9-49c5-ad89-17104080e81e"/>
+    <weighted-embedded-action uid="96ebe492-6852-41cd-9034-a9509cf66c9b"/>
+</basic-logical-action-container>

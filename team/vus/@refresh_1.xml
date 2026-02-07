@@ -5,7 +5,6 @@
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements executed once when the Virtual User starts.</description>
-        <weighted-embedded-action uid="f7093deb-f8b6-4b1c-9d73-54d7572905af"/>
     </init-container>
     <actions-container clearUserIterationDataMode="AUTO"
         element-number="1" execution-type="0" pacingEnd="0"

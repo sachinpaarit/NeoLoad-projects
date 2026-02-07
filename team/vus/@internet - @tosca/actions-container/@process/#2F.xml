@@ -1,0 +1,52 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@internet - @tosca/%resources%/recorded-artifacts/e700c3fd-b768-45d8-9bfc-057626b1d978.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e700c3fd-b768-45d8-9bfc-057626b1d978">
+    <embedded-action>d1f78cd5-1d61-48a7-b030-88daa6abc22d</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@internet - @tosca/%resources%/recorded-artifacts/e700c3fd-b768-45d8-9bfc-057626b1d978.zip"
+    recordedResponseCode="200" responseSize="34921"
+    serverUid="demowebshop.tricentis.com" slaProfileEnabled="false"
+    uid="d1f78cd5-1d61-48a7-b030-88daa6abc22d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ce87daed-b54a-4b52-abb2-e0f35d758138.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ce87daed-b54a-4b52-abb2-e0f35d758138.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="Nop.customer=116a463f-07c3-4635-8b4d-b0d637a43677; __utmz=78382081.1750264868.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=78382081.2087508669.1750264868.1750264868.1750407909.2; __utmt=1; __utmb=78382081.4.10.1750407909"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="sec-ch-ua" value="&quot;Microsoft Edge&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="none"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 7572&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Date: Fri, 20 Jun 2025 08:26:41 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Cache-Control: private&#xd;
+Content-Encoding: gzip&#xd;
+Set-Cookie: Nop.customer=116a463f-07c3-4635-8b4d-b0d637a43677; expires=Sat, 20-Jun-2026 08:26:42 GMT; path=/; HttpOnly&#xd;
+Set-Cookie: ARRAffinity=77f9b6868f3ed4b03d556c9cc434d8f0abe6bb49f9071960732b734faf64ebcb;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com&#xd;
+Set-Cookie: ARRAffinitySameSite=77f9b6868f3ed4b03d556c9cc434d8f0abe6bb49f9071960732b734faf64ebcb;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com&#xd;
+Vary: Accept-Encoding&#xd;
+X-AspNetMvc-Version: 5.2&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
