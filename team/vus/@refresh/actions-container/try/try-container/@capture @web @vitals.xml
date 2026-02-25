@@ -16,34 +16,4 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/"/>
     <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/books"/>
     <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/computers"/>
-    <embedded-action>ae040a64-2255-4ad7-ab75-f84a3cb7ef15</embedded-action>
-    <embedded-action>5415a7c4-6dbb-478b-aaa9-b340e38bf70f</embedded-action>
-    <embedded-action>cbdf3f71-5330-4e7b-8795-d8642af2287c</embedded-action>
 </browser-action>
-<browser-url-web-vital-action name=""
-    uid="ae040a64-2255-4ad7-ab75-f84a3cb7ef15" url="https://demowebshop.tricentis.com/">
-    <embedded-action>08e65c17-52cd-4aa1-8e9b-1839291ee0c2</embedded-action>
-    <embedded-action>cd466733-18ee-409a-b05e-b26484d95493</embedded-action>
-    <embedded-action>bfc92058-10f5-433b-ba6b-f7a2095cc1a6</embedded-action>
-</browser-url-web-vital-action>
-<browser-metric-web-vital-action metric="LCP" name="" uid="08e65c17-52cd-4aa1-8e9b-1839291ee0c2"/>
-<browser-metric-web-vital-action metric="INP" name="" uid="cd466733-18ee-409a-b05e-b26484d95493"/>
-<browser-metric-web-vital-action metric="CLS" name="" uid="bfc92058-10f5-433b-ba6b-f7a2095cc1a6"/>
-<browser-url-web-vital-action name=""
-    uid="5415a7c4-6dbb-478b-aaa9-b340e38bf70f" url="https://demowebshop.tricentis.com/books">
-    <embedded-action>cb458842-e130-4a9c-9fb9-f158f8434cbc</embedded-action>
-    <embedded-action>b6e7a497-036b-4ecd-a8a9-aa456765e07d</embedded-action>
-    <embedded-action>fe1fc711-e150-40ea-b11a-d8fd71359aae</embedded-action>
-</browser-url-web-vital-action>
-<browser-metric-web-vital-action metric="LCP" name="" uid="cb458842-e130-4a9c-9fb9-f158f8434cbc"/>
-<browser-metric-web-vital-action metric="INP" name="" uid="b6e7a497-036b-4ecd-a8a9-aa456765e07d"/>
-<browser-metric-web-vital-action metric="CLS" name="" uid="fe1fc711-e150-40ea-b11a-d8fd71359aae"/>
-<browser-url-web-vital-action name=""
-    uid="cbdf3f71-5330-4e7b-8795-d8642af2287c" url="https://demowebshop.tricentis.com/computers">
-    <embedded-action>a2c9ccf3-1e44-437b-94e4-9c48077edddd</embedded-action>
-    <embedded-action>495a3f35-f461-4139-a52c-46ac7abf49ab</embedded-action>
-    <embedded-action>f5e6b8fe-a8a2-4b7c-913d-189dc7c7493e</embedded-action>
-</browser-url-web-vital-action>
-<browser-metric-web-vital-action metric="LCP" name="" uid="a2c9ccf3-1e44-437b-94e4-9c48077edddd"/>
-<browser-metric-web-vital-action metric="INP" name="" uid="495a3f35-f461-4139-a52c-46ac7abf49ab"/>
-<browser-metric-web-vital-action metric="CLS" name="" uid="f5e6b8fe-a8a2-4b7c-913d-189dc7c7493e"/>

@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="GiftCards" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e51ae517-955b-4fad-a7b9-0e54f0201539" weightsEnabled="false">
+    <weighted-embedded-action uid="0234d416-2309-4637-a553-19a821e7d264"/>
+    <weighted-embedded-action uid="25d8c89b-e650-4bf8-a9a3-4e40537c10f7"/>
+    <weighted-embedded-action uid="c4df55c0-2dc1-4446-8415-93c8c6fe6713"/>
+    <weighted-embedded-action uid="df6cdf47-5ae9-44c5-b75f-660978470416"/>
+    <weighted-embedded-action uid="900c6c54-e28e-4006-9ae2-0c2eb2323ea3"/>
+</basic-logical-action-container>

@@ -19,6 +19,8 @@
     uid="d1f78cd5-1d61-48a7-b030-88daa6abc22d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_ce87daed-b54a-4b52-abb2-e0f35d758138.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_ce87daed-b54a-4b52-abb2-e0f35d758138.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
     <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
     <header name="Accept-Language" value="en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7"/>

@@ -1,0 +1,60 @@
+<browser-action actionType="BrowserCaptureWebVitals" isHit="false"
+    name="Capture Web Vitals" uid="8f902c3a-a316-481f-983d-36c2af055d8b">
+    <description>Captures Core Web Vitals metrics during Virtual User navigation. This helps detect performance issues that affect the user experience.
+
+NeoLoad collects the following metrics for each defined URL:
+
+- Largest Contentful Paint (LCP)
+- Interaction to Next Paint (INP)
+- Cumulative Layout Shift (CLS)
+
+If you don't define a URL, NeoLoad aggregates metrics across all visited pages.
+
+To collect all metrics, place this action before the first Navigate action. The Virtual User needs to stay a minimum amount of time and perform at least one interaction to ensure Web Vitals were collected for a given page.
+Possible parameters are:&#xd;
+- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/books"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/computers"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://demowebshop.tricentis.com/gift-cards"/>
+    <embedded-action>6c0597d7-c3b8-44f3-9fac-2ce5d25d07ef</embedded-action>
+    <embedded-action>17e96dac-eb0e-410c-a8dc-85ad94b44106</embedded-action>
+    <embedded-action>6dca1163-2673-43cc-8e99-0978f089cea5</embedded-action>
+    <embedded-action>e911de54-2c82-425d-b5f0-b44bafce2140</embedded-action>
+</browser-action>
+<browser-url-web-vital-action name=""
+    uid="6c0597d7-c3b8-44f3-9fac-2ce5d25d07ef" url="https://demowebshop.tricentis.com/">
+    <embedded-action>195d3428-9db2-48e2-abea-0e90527f5a9e</embedded-action>
+    <embedded-action>f213e8c1-b485-41d2-85b3-ccdd3562cfe5</embedded-action>
+    <embedded-action>0706e923-a669-47d2-a6a5-302da48f0652</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="195d3428-9db2-48e2-abea-0e90527f5a9e"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="f213e8c1-b485-41d2-85b3-ccdd3562cfe5"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="0706e923-a669-47d2-a6a5-302da48f0652"/>
+<browser-url-web-vital-action name=""
+    uid="17e96dac-eb0e-410c-a8dc-85ad94b44106" url="https://demowebshop.tricentis.com/books">
+    <embedded-action>3d26054a-7a83-43a0-b541-9e20a0f4b6cb</embedded-action>
+    <embedded-action>08d46fd6-3235-4818-b461-1546c0c4b601</embedded-action>
+    <embedded-action>f33ea613-a02d-4582-b969-b0cf09957974</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="3d26054a-7a83-43a0-b541-9e20a0f4b6cb"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="08d46fd6-3235-4818-b461-1546c0c4b601"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="f33ea613-a02d-4582-b969-b0cf09957974"/>
+<browser-url-web-vital-action name=""
+    uid="6dca1163-2673-43cc-8e99-0978f089cea5" url="https://demowebshop.tricentis.com/computers">
+    <embedded-action>5e549ee4-243e-4a5b-ac41-d5df77e1df31</embedded-action>
+    <embedded-action>323d0eaa-c291-4c36-abc8-3655e1736189</embedded-action>
+    <embedded-action>a8396a5d-b112-4dd3-9008-e2be2cfe72b3</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="5e549ee4-243e-4a5b-ac41-d5df77e1df31"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="323d0eaa-c291-4c36-abc8-3655e1736189"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="a8396a5d-b112-4dd3-9008-e2be2cfe72b3"/>
+<browser-url-web-vital-action name=""
+    uid="e911de54-2c82-425d-b5f0-b44bafce2140" url="https://demowebshop.tricentis.com/gift-cards">
+    <embedded-action>ff8cf526-aaab-490e-8749-db6b689c30f7</embedded-action>
+    <embedded-action>0cea03c0-0872-44a4-b140-f19eb101e7cf</embedded-action>
+    <embedded-action>0dcb3afe-df71-43b1-b7b7-9c16bd7c41c1</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="ff8cf526-aaab-490e-8749-db6b689c30f7"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="0cea03c0-0872-44a4-b140-f19eb101e7cf"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="0dcb3afe-df71-43b1-b7b7-9c16bd7c41c1"/>

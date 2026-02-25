@@ -14,19 +14,4 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="resourceType" type="TEXT" value="script"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="stylesheet"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
-    <embedded-action>3bc04e9c-f3e6-4e8d-8a81-b906a4be5fdb</embedded-action>
-    <embedded-action>284c8552-36fc-467a-bbe7-75278d086876</embedded-action>
-    <embedded-action>37938680-8896-4037-83f0-c061584308c6</embedded-action>
-    <embedded-action>d9d4dcb8-a764-4ad4-8a5a-32e11080ccce</embedded-action>
-    <embedded-action>ecbf1eb0-e4f6-4f9d-af09-cc4e8be57786</embedded-action>
 </browser-action>
-<browser-request-action name="" slaProfileEnabled="false"
-    type="resourceType" uid="3bc04e9c-f3e6-4e8d-8a81-b906a4be5fdb" value="image"/>
-<browser-request-action name="" slaProfileEnabled="false"
-    type="resourceType" uid="284c8552-36fc-467a-bbe7-75278d086876" value="script"/>
-<browser-request-action name="" slaProfileEnabled="false"
-    type="resourceType" uid="37938680-8896-4037-83f0-c061584308c6" value="stylesheet"/>
-<browser-request-action name="" slaProfileEnabled="false"
-    type="resourceType" uid="d9d4dcb8-a764-4ad4-8a5a-32e11080ccce" value="document"/>
-<browser-request-action name="" slaProfileEnabled="false" type="regexp"
-    uid="ecbf1eb0-e4f6-4f9d-af09-cc4e8be57786" value=".*"/>

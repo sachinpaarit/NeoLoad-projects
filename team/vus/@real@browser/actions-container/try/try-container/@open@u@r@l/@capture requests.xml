@@ -1,5 +1,5 @@
 <browser-action actionType="BrowserCaptureRequests" isHit="false"
-    name="Capture requests" uid="c2493801-c16c-4600-a61c-18109a247662">
+    name="Capture requests" uid="6c11ff2f-6c17-4b3a-a776-8f1b01f69a49">
     <description>Configure the capture of HTTP requests metrics for analysis purpose. 
 It allows to capture the metrics (duration, TTFB, success...) of the requests sent and responses received between the browser and the server.
 By default when no regexp/url/resourceType parameter is specified, then all the HTTP request metrics are aggregated in a single group.
@@ -14,4 +14,19 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="resourceType" type="TEXT" value="script"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="stylesheet"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
+    <embedded-action>7cf47807-eb1a-46e2-931f-54e7c5faab15</embedded-action>
+    <embedded-action>d05c2b3b-4c76-4845-b6b8-c3f26ca01152</embedded-action>
+    <embedded-action>dbd83449-a219-4145-b20e-a24387739bf6</embedded-action>
+    <embedded-action>29d08c9b-0fdd-4778-8f37-c940f32ab9df</embedded-action>
+    <embedded-action>91900f5b-bb4f-4b83-8f3a-26919379b0a6</embedded-action>
 </browser-action>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="7cf47807-eb1a-46e2-931f-54e7c5faab15" value="image"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="d05c2b3b-4c76-4845-b6b8-c3f26ca01152" value="script"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="dbd83449-a219-4145-b20e-a24387739bf6" value="stylesheet"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="29d08c9b-0fdd-4778-8f37-c940f32ab9df" value="document"/>
+<browser-request-action name="" slaProfileEnabled="false" type="regexp"
+    uid="91900f5b-bb4f-4b83-8f3a-26919379b0a6" value=".*"/>

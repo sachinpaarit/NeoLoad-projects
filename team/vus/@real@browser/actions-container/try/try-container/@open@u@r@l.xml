@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenURL" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6471a304-c5ed-4bc4-90e3-077eae3dca76" weightsEnabled="false">
+    <weighted-embedded-action uid="edd1cf23-ab46-4457-8ebe-abfff1f0e2d4"/>
+    <weighted-embedded-action uid="6c11ff2f-6c17-4b3a-a776-8f1b01f69a49"/>
+    <weighted-embedded-action uid="8f902c3a-a316-481f-983d-36c2af055d8b"/>
+    <weighted-embedded-action uid="d029f98b-d72c-47b9-880c-a4110d8b63bf"/>
+    <weighted-embedded-action uid="5ae64c51-104e-4380-8904-63f0b8044af3"/>
+</basic-logical-action-container>

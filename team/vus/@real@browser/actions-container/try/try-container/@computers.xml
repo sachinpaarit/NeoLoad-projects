@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Computers" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="14b49b26-4e20-4f4b-814b-364292a766b3" weightsEnabled="false">
+    <weighted-embedded-action uid="7df9e1c9-f657-4b41-aa91-210869417b41"/>
+    <weighted-embedded-action uid="78d52e57-119f-4324-92aa-11745633a411"/>
+</basic-logical-action-container>
